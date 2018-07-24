@@ -1,6 +1,6 @@
 # write your method here
 
-def crazy_strings("okay", "friends")
+def crazy_strings("a".reverse.upcase, "b".gsub("s","z") )
 
 end
-crazy_strings(("okay").reverse.upcase, ("friends").gsub("s", "z"))
+crazy_strings("okay", "friends")
